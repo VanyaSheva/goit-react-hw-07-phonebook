@@ -1,0 +1,14 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  font-size: 25px;
+  border: none;
+  transition: 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+.button:hover {
+  transform: rotate(180deg);
+}

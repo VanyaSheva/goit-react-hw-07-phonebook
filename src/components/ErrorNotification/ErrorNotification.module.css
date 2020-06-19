@@ -1,0 +1,12 @@
+.errorBox {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 220px;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 15px;
+}

@@ -1,0 +1,21 @@
+:global(body) {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.list {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+.listItem {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+  border-top: 1px solid gray;
+  padding: 5px;
+  box-shadow: 2px 2px 20px -4px rgba(0, 0, 0, 0.75);
+
+  margin-bottom: 30px;
+}

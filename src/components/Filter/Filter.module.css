@@ -1,0 +1,9 @@
+.label {
+  margin-bottom: 50px;
+  background-color: rgb(54, 54, 54);
+  padding: 5px;
+}
+
+::placeholder {
+  color: #fff;
+}
